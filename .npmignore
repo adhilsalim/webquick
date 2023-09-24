@@ -1,0 +1,15 @@
+# Ignore development and test files
+/node_modules/
+/npm-debug.log
+/.git/
+/.vscode/
+/tests/
+/examples/
+/docs/
+/.gitignore
+/.npmignore
+/package-lock.json
+
+# Exclude specific files
+/config.js
+/secrets.json
