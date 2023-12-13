@@ -1,57 +1,56 @@
-# WebQuick
-```text
-⚠️ Early development stage! Want to collaborate? Create an issue, mention me!
-```
+## **WebQuick**
+
+**⚠️ Early development stage! Want to collaborate? Create an issue & mention me!**
 
 Generate HTML, CSS, and JavaScript boilerplate with a live server.
 
-## Installation
+**Features:**
 
-To use WebQuick as a global command-line tool, you can install it using npm. Open your terminal and run the following command:
+* Generates basic HTML, CSS, and JavaScript files.
+* Starts a live server for your project.
+* Easy to use with a command-line interface.
+* Open-source and free to use.
 
-```bash
+**Installation:**
+
+```
 npm install -g webquick
 ```
 
-Once the installation is complete, you can use WebQuick from the command line by running `webquick`.
+**Usage:**
 
-## Usage
+**1. Generate Boilerplate:**
 
-### Generating Boilerplate
-
-To generate boilerplate files for a new project, use the `generate` (or `g`) command followed by the project name. For example:
-
-```bash
-webquick generate myproject
-webquick g myProject
+```
+webquick generate project-name
+webquick g project-name
 ```
 
-This will create a new directory named `myproject` with the basic HTML, CSS, and JavaScript files.
+This will create a new directory named `project-name` with the basic files.
 
-### Starting a Live Server
+**2. Start a Live Server:**
 
-To start a live server for a project, use the `serve` (or `s`) command followed by the project name. For example:
-
-```bash
-webquick serve myproject
-webquick s myProject
+```
+webquick serve project-name
+webquick s project-name
 ```
 
-This will start a live server for the project, and you can access it at http://localhost:3000.
+This will open your project at http://localhost:3000.
 
-### Contributing
+**Contributing:**
 
-This is my first ever npm package, If you'd like to contribute to this project, you are welcome to submit pull requests. Please follow these guidelines:
+We welcome contributions! Please follow these guidelines:
 
-1. Fork the repository and create a new branch for your feature or bug fix.
-2. Make your changes and ensure the code is well-documented.
-3. Run tests if available to make sure your changes do not break existing functionality.
-4. Submit a pull request with a clear title and description explaining the purpose of your changes.
+1. Fork the repository and create a new branch for your feature.
+2. Make changes and write clear documentation.
+3. Run tests to ensure functionality remains intact.
+4. Submit a pull request with a descriptive title and explanation.
 
-## License
+**License:**
 
-This project is licensed under the [ISC License](LICENSE).
+ISC License: LICENSE
 
----
+**Additional Information:**
 
-Feel free to open issues if you encounter any problems or have suggestions for improvements. Happy coding!
+* Feel free to open issues if you encounter problems or have suggestions.
+* We hope you enjoy using WebQuick!
