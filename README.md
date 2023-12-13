@@ -1,8 +1,9 @@
 ## **WebQuick**
+simple CLI to get started with web dev
 
-**⚠️ Early development stage! Want to collaborate? Create an issue & mention me!**
-
-Generate HTML, CSS, and JavaScript boilerplate with a live server.
+> [!NOTE]  
+> This project is in early developement.
+> Please collab if you are interested.
 
 **Features:**
 
